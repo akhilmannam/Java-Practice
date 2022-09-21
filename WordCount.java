@@ -27,9 +27,6 @@ class WordCount {
 
     public static void main(String[] args) {
         Map<String, Integer> countMap = wordCount("E N T H U S I A S T I C");
-        // using assert to test our output
-        assert countMap.size() == 9;
-        assert countMap.get("E") == 1;
-        assert countMap.get("T") == 2;
+        System.out.println(countMap);
     }
 }
